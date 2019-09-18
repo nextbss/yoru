@@ -14,7 +14,7 @@ public class Yoru<T> {
         mapper = new ObjectMapper();
     }
 
-    String toJson(Object content) {
+    public String toJson(Object content) {
         mapper.configure(SerializationFeature.WRAP_ROOT_VALUE, false);
         ObjectWriter ow = mapper.writer().withDefaultPrettyPrinter();
         try {
@@ -25,7 +25,7 @@ public class Yoru<T> {
         return null;
     }
 
-    T fromJson(String body, Class<T> clazz) throws IOException {
+    public T fromJson(String body, Class<T> clazz) throws IOException {
         return mapper.readValue(body, clazz);
     }
 }
