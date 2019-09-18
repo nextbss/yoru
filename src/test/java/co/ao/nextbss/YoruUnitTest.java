@@ -11,7 +11,7 @@ public class YoruUnitTest {
     private String toJsonExpectation = "{\n" +
             "  \"x\" : 10.0,\n" +
             "  \"y\" : 20.0,\n" +
-            "  \"z\" : 30.1\n" +
+            "  \"z\" : 30.0\n" +
             "}";
     @Test
     public void toJson() {
