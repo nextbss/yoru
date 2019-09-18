@@ -66,14 +66,14 @@ maven
 <dependency>
         <groupId>com.github.nextbss</groupId>
         <artifactId>yoru</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
 </dependency>
 ```
 
 gradle
 ```
 dependencies {
-    implementation 'com.github.nextbss:yoru:1.0.0'
+    implementation 'com.github.nextbss:yoru:1.0.1'
 }
 ```
 
