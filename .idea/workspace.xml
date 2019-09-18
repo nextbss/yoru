@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c36b9fbf-f25a-4459-a921-a1f72354cf88" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1R0hPwFVtEHKeLO81rOe6kzxHMn" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.YoruUnitTest.toJson">
+    <configuration name="YoruUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yoru-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.ao.nextbss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.ao.nextbss" />
+      <option name="MAIN_CLASS_NAME" value="co.ao.nextbss.YoruUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YoruUnitTest.fromJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yoru-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.ao.nextbss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.ao.nextbss" />
+      <option name="MAIN_CLASS_NAME" value="co.ao.nextbss.YoruUnitTest" />
+      <option name="METHOD_NAME" value="fromJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YoruUnitTest.fromJsonFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yoru-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.ao.nextbss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.ao.nextbss" />
+      <option name="MAIN_CLASS_NAME" value="co.ao.nextbss.YoruUnitTest" />
+      <option name="METHOD_NAME" value="fromJsonFailure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YoruUnitTest.toJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="yoru-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="co.ao.nextbss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="co.ao.nextbss" />
+      <option name="MAIN_CLASS_NAME" value="co.ao.nextbss.YoruUnitTest" />
+      <option name="METHOD_NAME" value="toJson" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.YoruUnitTest.toJson" />
+        <item itemvalue="JUnit.YoruUnitTest.fromJsonFailure" />
+        <item itemvalue="JUnit.YoruUnitTest" />
+        <item itemvalue="JUnit.YoruUnitTest.fromJson" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c36b9fbf-f25a-4459-a921-a1f72354cf88" name="Default Changelist" comment="" />
+      <created>1568809899506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568809899506</updated>
+      <workItem from="1568809904271" duration="1692000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
