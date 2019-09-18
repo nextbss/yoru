@@ -7,7 +7,7 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
 
-class Yoru<T> {
+public class Yoru<T> {
     private ObjectMapper mapper;
 
     Yoru() {
