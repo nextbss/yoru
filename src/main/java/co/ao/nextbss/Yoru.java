@@ -10,7 +10,7 @@ import java.io.IOException;
 public class Yoru<T> {
     private ObjectMapper mapper;
 
-    Yoru() {
+    public Yoru() {
         mapper = new ObjectMapper();
     }
 
