@@ -27,7 +27,7 @@ Result:
 Use the ```fromJson(String content)``` method to convert json to any type ```T```.
 ```java
  Yoru<Coordinates> converter = new Yoru<>();
- Coordinates coordinates = converter.fromJson(toJsonExpectation, Coordinates.class);
+ Coordinates coordinates = converter.fromJson(toJsonExpectation);
 ```
 
 

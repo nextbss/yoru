@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c36b9fbf-f25a-4459-a921-a1f72354cf88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/ao/nextbss/Yoru.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/ao/nextbss/Yoru.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/ao/nextbss/YoruUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/ao/nextbss/YoruUnitTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -142,7 +140,7 @@
       <workItem from="1568809904271" duration="3250000" />
       <workItem from="1568874968565" duration="2403000" />
       <workItem from="1568903583422" duration="597000" />
-      <workItem from="1568998760500" duration="350000" />
+      <workItem from="1568998760500" duration="690000" />
     </task>
     <servers />
   </component>
