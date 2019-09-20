@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
 
 import java.io.IOException;
+import java.lang.reflect.ParameterizedType;
 
 public class Yoru<T> {
     private ObjectMapper mapper;
@@ -25,7 +26,9 @@ public class Yoru<T> {
         return null;
     }
 
-    public T fromJson(String body, Class<T> clazz) throws IOException {
+    public T fromJson(String body) throws IOException {
+        @SuppressWarnings("unchecked")
+        Class<T> clazz = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[0];
         return mapper.readValue(body, clazz);
     }
 }

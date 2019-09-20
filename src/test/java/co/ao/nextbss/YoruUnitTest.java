@@ -23,16 +23,16 @@ public class YoruUnitTest {
     @Test
     public void fromJson() throws IOException {
         Yoru<Coordinates> converter = new Yoru<>();
-        Assertions.assertEquals(new Coordinates(10, 20, 30).getX(), converter.fromJson(toJsonExpectation, Coordinates.class).getX());
-        Assertions.assertEquals(new Coordinates(10, 20, 30).getY(), converter.fromJson(toJsonExpectation, Coordinates.class).getY());
-        Assertions.assertEquals(new Coordinates(10, 20, 30).getZ(), converter.fromJson(toJsonExpectation, Coordinates.class).getZ());
+        Assertions.assertEquals(new Coordinates(10, 20, 30).getX(), converter.fromJson(toJsonExpectation).getX());
+        Assertions.assertEquals(new Coordinates(10, 20, 30).getY(), converter.fromJson(toJsonExpectation).getY());
+        Assertions.assertEquals(new Coordinates(10, 20, 30).getZ(), converter.fromJson(toJsonExpectation).getZ());
     }
 
     @Test
     public void fromJsonFailure() throws IOException {
         Yoru<Coordinates> converter = new Yoru<>();
-        Assertions.assertNotEquals(new Coordinates(11, 21, 31).getX(), converter.fromJson(toJsonExpectation, Coordinates.class).getX());
-        Assertions.assertNotEquals(new Coordinates(11, 21, 31).getY(), converter.fromJson(toJsonExpectation, Coordinates.class).getY());
-        Assertions.assertNotEquals(new Coordinates(11, 21, 31).getZ(), converter.fromJson(toJsonExpectation, Coordinates.class).getZ());
+        Assertions.assertNotEquals(new Coordinates(11, 21, 31).getX(), converter.fromJson(toJsonExpectation).getX());
+        Assertions.assertNotEquals(new Coordinates(11, 21, 31).getY(), converter.fromJson(toJsonExpectation).getY());
+        Assertions.assertNotEquals(new Coordinates(11, 21, 31).getZ(), converter.fromJson(toJsonExpectation).getZ());
     }
 }
