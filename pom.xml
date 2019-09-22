@@ -11,6 +11,8 @@
     <properties>
         <java.version>8</java.version>
         <maven.test.skip>false</maven.test.skip>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <build>
