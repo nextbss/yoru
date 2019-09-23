@@ -1,5 +1,5 @@
 # Yoru (夜)
-A simple Java library for converting json to any object type and vice-versa.
+A simple Java Util wrapper over jackson-binding for converting json to any object type and vice-versa.
 
 [![](https://img.shields.io/badge/next-opensource-blue.svg)](https://www.nextbss.co.ao)
 
