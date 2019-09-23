@@ -7,10 +7,13 @@
     <groupId>co.ao.nextbss</groupId>
     <artifactId>yoru</artifactId>
     <version>1.0.0</version>
+    <url>https://github.com/nextbss/yoru</url>
 
     <properties>
         <java.version>8</java.version>
         <maven.test.skip>false</maven.test.skip>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
     <build>
@@ -40,7 +43,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.21.0</version>
+
                 <dependencies>
                     <dependency>
                         <groupId>org.junit.platform</groupId>
@@ -48,6 +51,7 @@
                         <version>1.2.0</version>
                     </dependency>
                 </dependencies>
+                <version>2.21.0</version>
             </plugin>
         </plugins>
     </build>
@@ -79,6 +83,13 @@
             <version>1.10.19</version>
             <scope>compile</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-checkstyle-plugin</artifactId>
+            <version>3.1.0</version>
+            <type>maven-plugin</type>
+        </dependency>
     </dependencies>
 
     <reporting>
@@ -86,9 +97,20 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.0.0</version>
+                <version>3.1.0</version>
+                <reportSets>
+                    <reportSet>
+                        <reports>
+                            <report>checkstyle</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+                <version>2.3</version>
             </plugin>
         </plugins>
     </reporting>
-
 </project>
